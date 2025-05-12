@@ -1,13 +1,13 @@
 {
-  "minVersion": "0.8",
+  "minVersion": "0.7",
   "required": true,
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_8",
   "package": "net.mehvahdjukaar.modelfix.mixins",
   "mixins": [
   ],
   "client": [
     "TextureAtlasSpriteMixin",
-    "ItemModelMixin"
+    "ItemModelGeneratorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
